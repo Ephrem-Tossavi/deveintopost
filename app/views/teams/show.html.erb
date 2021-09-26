@@ -42,7 +42,7 @@
                       <td><%= image_tag 'default.jpg', size: '40x40' %></td>
                       <td><%= assign.user.email %></td>
                       <%if @team.owner == current_user %>
-                      <td><%= link_to ('Make_leader'), make_leader_path(assign.user.id, @team.id), class: 'btn btn-outline-success my-2 my-sm-0' %></td>
+                      <td><%= link_to I18n.t('views.button.make_leader'), make_leader_path(assign.user.id, @team.id), class: 'btn btn-outline-success my-2 my-sm-0' %></td>
                       <%end%>
                       <td><%= link_to I18n.t('views.button.delete'), team_assign_path(@team, assign), method: :delete, class: 'btn btn-sm btn-danger' %></td>
                     </tr>
