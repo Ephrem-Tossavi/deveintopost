@@ -263,6 +263,8 @@ en:
       edit_profile: 'Edit Profile'
       team_you_belong_to: 'The team you belong to'
       posted_articles: 'List of posted articles'
+      you_are_not_leader: 'You are not leader'
+      only_team_leader_can_edit: 'Only team leader can edit'
     button:
       submit: 'Submit'
       edit: 'Edit'
